@@ -747,7 +747,7 @@ body {
 }
 
 .bg-pattern {
-  background-image: url('../src/images/bg-pattern-card.svg');
+  background-image: url('../images/bg-pattern-card.svg');
   background-repeat: repeat-x;
 }
 
