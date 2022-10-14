@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Component Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="bg-[#19a1ad] relative">
+    <img src="../src/images/bg-pattern-top.svg" alt="" class="bg-pattern-top" />
+    <img src="../src/images/bg-pattern-bottom.svg" alt="" class="bg-pattern-bottom" />
+    <div class="m-5 flex xl:h-screen justify-center items-center space-x-4">
+      <main class="mx-auto bg-white w-96 rounded-xl shadow-xl z-[100]">
+          <div class="p-6 bg-[#41ccd3] rounded-tl-xl rounded-tr-xl relative h-36 bg-pattern">
+            <picture class="rounded-full">
+               <img src="./images/image-victor.jpg" class="rounded-full border-4 border-[#ffffff] mx-auto absolute left-[36%] bottom-[-33px]" alt="avtar image" />
+            </picture>
+          </div>
+          <div class="pt-12 pb-9">
+              <h1 class="text-center font-bold text-[#242132] text-2xl">Victor Crest <span class="text-[#727375] font-light">26</span></h1>
+              <p class="text-center font-light text-[#727375] text-base">London</p>
+          </div>
+          <div class="p-6 border-2 border-r-0 border-l-0 border-b-0 border-t-[#c2c2c2] grid grid-cols-3 gap-3 rounded-br-xl rounded-bl-xl">
+            <div>
+              <p class="text-center font-bold text-[#242132] text-xl">80k</p>
+              <p class="text-center font-light text-[#727375]">Followers</p>
+            </div>
+            <div>
+              <p class="text-center font-bold text-[#242132] text-xl">803k</p>
+              <p class="text-center font-light text-[#727375]">Likes</p>
+            </div>
+            <div>
+              <p class="text-center font-bold text-[#242132] text-xl">1.4k</p>
+              <p class="text-center font-light text-[#727375]">Photos</p>
+            </div>
+          </div>
+      </main>
+    </div>   
+</body>
+</html>
